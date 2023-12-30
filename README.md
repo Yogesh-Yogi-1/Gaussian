@@ -25,6 +25,7 @@ import sys
 n=int(input())
 a=np.zeros((n,n+1))
 x=np.zeros(n)
+
 for i in range(n):
     for j in range(n+1):
         a[i][j] = float(input())
